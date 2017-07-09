@@ -25,7 +25,7 @@ public class EmailUtil {
 
     public static void email(final Object caller, final String content, final String subject, final boolean contentIsImageLocation,
                              final boolean debug){
-        logger.debug("Email image");
+        logger.debug("Sending email Email");
 
         final Properties systemProps = PropertiesUtil.getWateringsSystemProperties(caller);
 
